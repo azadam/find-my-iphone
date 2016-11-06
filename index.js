@@ -129,9 +129,11 @@ var findmyphone = {
 					deviceModel: device.deviceModel,
 					modelDisplayName: device.modelDisplayName,
 					deviceDisplayName: device.deviceDisplayName,
+					batteryStatus: device.batteryStatus,
 					batteryLevel: device.batteryLevel,
 					isLocating: device.isLocating,
 					lostModeCapable: device.lostModeCapable,
+					maxMsgChar: device.maxMsgChar,
 					location: device.location
 				});
 			});
